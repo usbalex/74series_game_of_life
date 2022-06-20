@@ -17,14 +17,14 @@ Sums up n1 to n3 and n4 to n6 independently using bitslicing.
 Connections:
   * C0 = n1
   * A1 = n2
-  * B1 = n3  
-        => sum_a = <S2:S1> = n1+n2+n3
+  * B1 = n3
   * A2 = 0
   * B2 = 0  
-        => S2 = 0 AND internal carry S2 = 0
+        => sum_a = <S2:S1> = n1+n2+n3  
+        => internal carry C2 = 0
   * A3 = n4
   * B3 = n4  
-        => internal carry C3 = n3
+        => internal carry C3 = n4
   * A4 = n5
   * B4 = n6  
         => sum_b = <C4:S4> = n4+n5+n6
